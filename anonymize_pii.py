@@ -1,7 +1,14 @@
+# Copyright (c) Microsoft Corporation.
+# Licensed under the MIT License.
+
 """
 =============================================================================
 PII Anonymization of Patient Medical Records Using Microsoft Presidio & Faker
 =============================================================================
+
+Author:  Mostaqim Murshed (mmurshed@microsoft.com)
+Date:    March 2026
+License: MIT
 
 This script demonstrates:
 1. Loading structured (CSV) and unstructured (clinical notes) patient data
