@@ -1,0 +1,733 @@
+{
+  "summary": {
+    "total_pii_instances_found": 100,
+    "structured_data_pii": 62,
+    "unstructured_data_pii": 38,
+    "entity_type_breakdown": {
+      "DATE_TIME": 20,
+      "PERSON": 16,
+      "PHONE_NUMBER": 14,
+      "LOCATION": 14,
+      "US_SSN": 11,
+      "EMAIL_ADDRESS": 11,
+      "INSURANCE_ID": 11,
+      "NPI_NUMBER": 3
+    }
+  },
+  "structured_data_findings": [
+    {
+      "row": 1,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1985-03-15",
+      "replacement": "05/20/1965"
+    },
+    {
+      "row": 1,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "123-45-6789",
+      "replacement": "143-95-1680"
+    },
+    {
+      "row": 1,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 234-5678",
+      "replacement": "+1-581-896-0013x38908"
+    },
+    {
+      "row": 1,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "john.smith@gmail.com",
+      "replacement": "shaneramirez@example.org"
+    },
+    {
+      "row": 1,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "123 Oak Street, Seattle, WA 98101",
+      "replacement": "654 Jason Track, Curtisfurt, CT 47553"
+    },
+    {
+      "row": 1,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-88341",
+      "replacement": "INS-6635-89131"
+    },
+    {
+      "row": 1,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. Emily Watson",
+      "replacement": "Andrew Stevens"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "daily",
+      "replacement": "09/09/1958",
+      "score": 0.85,
+      "position": "106-111",
+      "row": 1,
+      "column": "notes"
+    },
+    {
+      "row": 2,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1972-08-22",
+      "replacement": "12/21/1992"
+    },
+    {
+      "row": 2,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "987-65-4321",
+      "replacement": "634-47-9460"
+    },
+    {
+      "row": 2,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 876-5432",
+      "replacement": "610.934.1316"
+    },
+    {
+      "row": 2,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "maria.garcia@hotmail.com",
+      "replacement": "francisco53@example.net"
+    },
+    {
+      "row": 2,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "456 Pine Avenue, Portland, OR 97201",
+      "replacement": "283 Steven Groves, Lake Mark, WI 07832"
+    },
+    {
+      "row": 2,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-55672",
+      "replacement": "INS-4752-14207"
+    },
+    {
+      "row": 2,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. James Chen",
+      "replacement": "Jennifer Jones"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "daily",
+      "replacement": "09/09/1958",
+      "score": 0.85,
+      "position": "125-130",
+      "row": 2,
+      "column": "notes"
+    },
+    {
+      "row": 3,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1990-01-30",
+      "replacement": "08/30/1964"
+    },
+    {
+      "row": 3,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "456-78-9012",
+      "replacement": "672-64-6483"
+    },
+    {
+      "row": 3,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 345-6789",
+      "replacement": "+1-772-542-3884x9696"
+    },
+    {
+      "row": 3,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "r.johnson@yahoo.com",
+      "replacement": "williamdavis@example.org"
+    },
+    {
+      "row": 3,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "789 Maple Drive, Austin, TX 78701",
+      "replacement": "269 Paul Ranch, Riceside, VI 02005"
+    },
+    {
+      "row": 3,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-33219",
+      "replacement": "INS-2876-99353"
+    },
+    {
+      "row": 3,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. Sarah Patel",
+      "replacement": "Nicole Mack"
+    },
+    {
+      "row": 4,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1968-11-05",
+      "replacement": "06/01/1950"
+    },
+    {
+      "row": 4,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "321-54-9876",
+      "replacement": "740-93-4316"
+    },
+    {
+      "row": 4,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 456-7890",
+      "replacement": "728.914.8932x52880"
+    },
+    {
+      "row": 4,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "susan.w@outlook.com",
+      "replacement": "rodriguezmichael@example.com"
+    },
+    {
+      "row": 4,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "321 Elm Court, Denver, CO 80201",
+      "replacement": "117 Tiffany Place, East Donna, OH 22144"
+    },
+    {
+      "row": 4,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-77890",
+      "replacement": "INS-5342-79163"
+    },
+    {
+      "row": 4,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. Michael Brooks",
+      "replacement": "Jenny Lewis"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "daily",
+      "replacement": "09/09/1958",
+      "score": 0.85,
+      "position": "152-157",
+      "row": 4,
+      "column": "notes"
+    },
+    {
+      "row": 5,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1995-06-12",
+      "replacement": "05/29/1971"
+    },
+    {
+      "row": 5,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "654-32-1098",
+      "replacement": "409-86-6119"
+    },
+    {
+      "row": 5,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 567-8901",
+      "replacement": "587.213.3150x983"
+    },
+    {
+      "row": 5,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "david.lee@protonmail.com",
+      "replacement": "zimmermanbrian@example.org"
+    },
+    {
+      "row": 5,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "567 Cedar Lane, Miami, FL 33101",
+      "replacement": "PSC 5183, Box 4738, APO AE 95312"
+    },
+    {
+      "row": 5,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-11456",
+      "replacement": "INS-8744-41850"
+    },
+    {
+      "row": 5,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. Amanda Foster",
+      "replacement": "Rhonda Lee"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "45 mg/dL. eGFR",
+      "replacement": "10/16/1956",
+      "score": 0.85,
+      "position": "54-68",
+      "row": 5,
+      "column": "notes"
+    },
+    {
+      "row": 6,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1983-09-08",
+      "replacement": "10/23/1999"
+    },
+    {
+      "row": 6,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "789-01-2345",
+      "replacement": "056-87-1613"
+    },
+    {
+      "row": 6,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 678-9012",
+      "replacement": "4658133387"
+    },
+    {
+      "row": 6,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "j.martinez@icloud.com",
+      "replacement": "joshuawright@example.org"
+    },
+    {
+      "row": 6,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "890 Birch Road, Chicago, IL 60601",
+      "replacement": "80132 Tucker Forest, Barreraburgh, MS 00783"
+    },
+    {
+      "row": 6,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-99234",
+      "replacement": "INS-7396-44760"
+    },
+    {
+      "row": 6,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. Kevin Nguyen",
+      "replacement": "Rachel Mitchell"
+    },
+    {
+      "row": 7,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1955-04-20",
+      "replacement": "03/27/1995"
+    },
+    {
+      "row": 7,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "246-80-1357",
+      "replacement": "736-63-2537"
+    },
+    {
+      "row": 7,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 789-0123",
+      "replacement": "243.909.8050"
+    },
+    {
+      "row": 7,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "w.brown@aol.com",
+      "replacement": "brianromero@example.org"
+    },
+    {
+      "row": 7,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "234 Walnut Street, Phoenix, AZ 85001",
+      "replacement": "361 Beth Canyon, South Dianeshire, NC 41968"
+    },
+    {
+      "row": 7,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-44567",
+      "replacement": "INS-5272-36772"
+    },
+    {
+      "row": 7,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. Lisa Thompson",
+      "replacement": "Emily Baker"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "55 six months ago",
+      "replacement": "02/06/1959",
+      "score": 0.85,
+      "position": "20-37",
+      "row": 7,
+      "column": "notes"
+    },
+    {
+      "row": 8,
+      "column": "date_of_birth",
+      "entity_type": "DATE_TIME",
+      "original": "1978-12-01",
+      "replacement": "02/18/1955"
+    },
+    {
+      "row": 8,
+      "column": "ssn",
+      "entity_type": "US_SSN",
+      "original": "135-79-2468",
+      "replacement": "010-59-9225"
+    },
+    {
+      "row": 8,
+      "column": "phone",
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 890-1234",
+      "replacement": "518-738-4251"
+    },
+    {
+      "row": 8,
+      "column": "email",
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "p.anderson@gmail.com",
+      "replacement": "eric84@example.net"
+    },
+    {
+      "row": 8,
+      "column": "address",
+      "entity_type": "LOCATION",
+      "original": "678 Spruce Way, Boston, MA 02101",
+      "replacement": "Unit 8084 Box 1241, DPO AE 97811"
+    },
+    {
+      "row": 8,
+      "column": "insurance_id",
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-66891",
+      "replacement": "INS-3546-45697"
+    },
+    {
+      "row": 8,
+      "column": "attending_physician",
+      "entity_type": "PERSON",
+      "original": "Dr. Robert Kim",
+      "replacement": "Daniel Cooper"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "weekly",
+      "replacement": "12/23/1996",
+      "score": 0.85,
+      "position": "159-165",
+      "row": 8,
+      "column": "notes"
+    }
+  ],
+  "unstructured_data_findings": [
+    {
+      "entity_type": "NPI_NUMBER",
+      "original": "NPI: 1122334455",
+      "replacement": "NPI: 7393195616",
+      "score": 0.85,
+      "position": "3206-3221"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "Amanda Foster",
+      "replacement": "Sarah Davis",
+      "score": 0.85,
+      "position": "3188-3201"
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 567-2222",
+      "replacement": "(340)405-2427x86801",
+      "score": 0.4,
+      "position": "2370-2384"
+    },
+    {
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-11456",
+      "replacement": "INS-8744-41850",
+      "score": 0.9,
+      "position": "2315-2329"
+    },
+    {
+      "entity_type": "LOCATION",
+      "original": "FL 33101",
+      "replacement": "826 Bobby Lakes Apt. 533, West Kimberlychester, RI 98736",
+      "score": 0.85,
+      "position": "2269-2277"
+    },
+    {
+      "entity_type": "LOCATION",
+      "original": "Miami",
+      "replacement": "26025 Pham Way, West Erik, UT 14669",
+      "score": 0.85,
+      "position": "2262-2267"
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "david.lee@protonmail.com",
+      "replacement": "zimmermanbrian@example.org",
+      "score": 1.0,
+      "position": "2212-2236"
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 567-8901",
+      "replacement": "587.213.3150x983",
+      "score": 0.4,
+      "position": "2195-2209"
+    },
+    {
+      "entity_type": "US_SSN",
+      "original": "654-32-1098",
+      "replacement": "409-86-6119",
+      "score": 0.95,
+      "position": "2174-2185"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "06/12/1995",
+      "replacement": "03/24/1976",
+      "score": 0.6,
+      "position": "2157-2167"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "David Lee",
+      "replacement": "Monica Harris",
+      "score": 0.85,
+      "position": "2141-2150"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "2025-11-28",
+      "replacement": "10/30/1952",
+      "score": 0.95,
+      "position": "2075-2085"
+    },
+    {
+      "entity_type": "NPI_NUMBER",
+      "original": "NPI: 0987654321",
+      "replacement": "NPI: 8982597239",
+      "score": 0.85,
+      "position": "1979-1994"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "Sarah Patel",
+      "replacement": "Robert Stevens",
+      "score": 0.85,
+      "position": "1963-1974"
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 345-1111",
+      "replacement": "733-203-6541x4586",
+      "score": 0.4,
+      "position": "1252-1266"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "Lisa Johnson",
+      "replacement": "Wesley White",
+      "score": 0.85,
+      "position": "1228-1240"
+    },
+    {
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-33219",
+      "replacement": "INS-2876-99353",
+      "score": 0.9,
+      "position": "1194-1208"
+    },
+    {
+      "entity_type": "LOCATION",
+      "original": "TX 78701\nInsurance",
+      "replacement": "USNV Johnson, FPO AP 57460",
+      "score": 0.85,
+      "position": "1159-1177"
+    },
+    {
+      "entity_type": "LOCATION",
+      "original": "Austin",
+      "replacement": "9816 Jonathan Station Suite 088, West Ryan, TN 43780",
+      "score": 0.85,
+      "position": "1151-1157"
+    },
+    {
+      "entity_type": "LOCATION",
+      "original": "Maple Drive",
+      "replacement": "484 Nguyen Square, Angelaborough, MT 87654",
+      "score": 0.85,
+      "position": "1138-1149"
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "r.johnson@yahoo.com",
+      "replacement": "williamdavis@example.org",
+      "score": 1.0,
+      "position": "1105-1124"
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 345-6789",
+      "replacement": "+1-772-542-3884x9696",
+      "score": 0.4,
+      "position": "1088-1102"
+    },
+    {
+      "entity_type": "US_SSN",
+      "original": "456-78-9012",
+      "replacement": "672-64-6483",
+      "score": 0.95,
+      "position": "1067-1078"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "01/30/1990",
+      "replacement": "12/30/1975",
+      "score": 0.6,
+      "position": "1050-1060"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "Robert Johnson",
+      "replacement": "Latoya Robbins",
+      "score": 0.85,
+      "position": "1029-1043"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "2025-12-01",
+      "replacement": "04/14/1996",
+      "score": 0.95,
+      "position": "963-973"
+    },
+    {
+      "entity_type": "NPI_NUMBER",
+      "original": "NPI: 1234567890",
+      "replacement": "NPI: 7739255769",
+      "score": 0.85,
+      "position": "867-882"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "Emily Watson",
+      "replacement": "Roy Torres",
+      "score": 0.85,
+      "position": "850-862"
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 234-9999",
+      "replacement": "969.495.7773",
+      "score": 0.4,
+      "position": "329-343"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "Jane Smith",
+      "replacement": "Diane Beck",
+      "score": 0.85,
+      "position": "309-319"
+    },
+    {
+      "entity_type": "INSURANCE_ID",
+      "original": "INS-2024-88341",
+      "replacement": "INS-6635-89131",
+      "score": 0.9,
+      "position": "275-289"
+    },
+    {
+      "entity_type": "LOCATION",
+      "original": "Seattle",
+      "replacement": "43320 John Mountains, South Robertshire, ID 94656",
+      "score": 0.85,
+      "position": "216-223"
+    },
+    {
+      "entity_type": "EMAIL_ADDRESS",
+      "original": "john.smith@gmail.com",
+      "replacement": "shaneramirez@example.org",
+      "score": 1.0,
+      "position": "170-190"
+    },
+    {
+      "entity_type": "PHONE_NUMBER",
+      "original": "(555) 234-5678",
+      "replacement": "+1-581-896-0013x38908",
+      "score": 0.4,
+      "position": "153-167"
+    },
+    {
+      "entity_type": "US_SSN",
+      "original": "123-45-6789",
+      "replacement": "143-95-1680",
+      "score": 0.95,
+      "position": "132-143"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "03/15/1985",
+      "replacement": "07/31/1997",
+      "score": 0.6,
+      "position": "115-125"
+    },
+    {
+      "entity_type": "PERSON",
+      "original": "John Smith",
+      "replacement": "Allison Hill",
+      "score": 0.85,
+      "position": "98-108"
+    },
+    {
+      "entity_type": "DATE_TIME",
+      "original": "2025-11-10",
+      "replacement": "04/28/1976",
+      "score": 0.95,
+      "position": "32-42"
+    }
+  ]
+}

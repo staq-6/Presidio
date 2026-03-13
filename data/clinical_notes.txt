@@ -1,0 +1,84 @@
+CLINICAL NOTE - ENCOUNTER DATE: 2025-11-10
+=============================================
+Patient: John Smith (DOB: 03/15/1985)
+SSN: 123-45-6789
+Contact: (555) 234-5678 | john.smith@gmail.com
+Address: 123 Oak Street, Seattle, WA 98101
+Insurance: BlueCross BlueShield, Policy# INS-2024-88341
+Emergency Contact: Jane Smith (wife) - (555) 234-9999
+
+CHIEF COMPLAINT: Increased thirst and frequent urination for 3 weeks.
+
+VITALS: BP 130/85 mmHg, HR 78 bpm, Temp 98.6°F, SpO2 99%, Weight 198 lbs
+
+LAB RESULTS:
+- HbA1c: 7.8% (Reference: 4.0-5.6%)
+- Fasting Glucose: 156 mg/dL (Reference: 70-99 mg/dL)
+- BUN: 18 mg/dL (Reference: 7-20 mg/dL)
+- Creatinine: 1.0 mg/dL (Reference: 0.7-1.3 mg/dL)
+
+ASSESSMENT: Type 2 Diabetes Mellitus, newly diagnosed
+PLAN: Start Metformin 500mg BID. Diabetic education referral. Follow-up in 3 months.
+
+Attending Physician: Dr. Emily Watson, MD
+NPI: 1234567890
+
+=============================================
+
+CLINICAL NOTE - ENCOUNTER DATE: 2025-12-01
+=============================================
+Patient: Robert Johnson (DOB: 01/30/1990)
+SSN: 456-78-9012
+Contact: (555) 345-6789 | r.johnson@yahoo.com
+Address: 789 Maple Drive, Austin, TX 78701
+Insurance: Aetna, Policy# INS-2024-33219
+Emergency Contact: Lisa Johnson (mother) - (555) 345-1111
+
+CHIEF COMPLAINT: Fatigue, dizziness, and shortness of breath on exertion for 2 months.
+
+VITALS: BP 110/68 mmHg, HR 98 bpm, Temp 98.2°F, SpO2 97%, Weight 165 lbs
+
+LAB RESULTS:
+- Hemoglobin: 9.2 g/dL (Reference: 13.5-17.5 g/dL)
+- Hematocrit: 28% (Reference: 38.3-48.6%)
+- MCV: 72 fL (Reference: 80-100 fL)
+- Ferritin: 8 ng/mL (Reference: 20-250 ng/mL)
+- Iron: 30 mcg/dL (Reference: 60-170 mcg/dL)
+- TIBC: 450 mcg/dL (Reference: 250-370 mcg/dL)
+- Reticulocyte Count: 0.8% (Reference: 0.5-2.5%)
+
+ASSESSMENT: Iron Deficiency Anemia - severe
+PLAN: Ferrous Sulfate 325mg TID with Vitamin C. GI referral for colonoscopy to evaluate for occult bleeding. Recheck CBC in 4 weeks.
+
+Attending Physician: Dr. Sarah Patel, MD
+NPI: 0987654321
+
+=============================================
+
+CLINICAL NOTE - ENCOUNTER DATE: 2025-11-28
+=============================================
+Patient: David Lee (DOB: 06/12/1995)
+SSN: 654-32-1098
+Contact: (555) 567-8901 | david.lee@protonmail.com
+Address: 567 Cedar Lane, Miami, FL 33101
+Insurance: UnitedHealthcare, Policy# INS-2024-11456
+Emergency Contact: Grace Lee (sister) - (555) 567-2222
+
+CHIEF COMPLAINT: Decreased urine output, nausea, and bilateral leg swelling for 5 days.
+
+VITALS: BP 158/95 mmHg, HR 92 bpm, Temp 99.1°F, SpO2 96%, Weight 180 lbs
+
+LAB RESULTS:
+- Creatinine: 3.2 mg/dL (Reference: 0.7-1.3 mg/dL) [Baseline: 1.0 mg/dL]
+- BUN: 45 mg/dL (Reference: 7-20 mg/dL)
+- eGFR: 22 mL/min (Reference: >60 mL/min)
+- Potassium: 5.6 mEq/L (Reference: 3.5-5.0 mEq/L)
+- Sodium: 132 mEq/L (Reference: 136-145 mEq/L)
+- Phosphorus: 5.8 mg/dL (Reference: 2.5-4.5 mg/dL)
+- Urinalysis: Protein 3+, RBC 10-20/HPF, WBC 5-10/HPF
+
+ASSESSMENT: Acute Kidney Injury (Stage 3 per KDIGO criteria)
+PLAN: IV Normal Saline 150 mL/hr. Kayexalate for hyperkalemia. Hold nephrotoxic medications. Nephrology stat consult. Renal ultrasound. Monitor I&O strictly. Repeat BMP in 6 hours.
+
+Attending Physician: Dr. Amanda Foster, MD
+NPI: 1122334455
